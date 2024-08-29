@@ -1,0 +1,647 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+    header img {
+        width: 100px;
+    }
+
+    nav {
+        position: fixed;
+        width: 80%;
+        background: white;
+        height: 350px;
+        top: 37px;
+        left: -100%;
+        transition: .7s;
+        box-shadow: 0px 0px 10px 1px #ccc;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: normal;
+        margin-left: 10px;
+    }
+
+    nav ul button {
+        width: 50%;
+        font-size: 10px;
+    }
+
+    nav ul span {
+        display: none;
+    }
+
+    .hideIcon i {
+        display: block;
+    }
+
+    .showMenu {
+        left: 0% !important;
+    }
+
+    .banner1 {
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    .bannerSection {
+        margin-top: 37px;
+    }
+
+    .banner2 {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .banner2Inner {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .banner2Inner h1 {
+        font-size: 30px;
+    }
+
+    .banner2Inner p {
+        text-align: justify;
+    }
+
+    .community {
+        font-size: 14px;
+        line-height: 30px;
+        border: none;
+
+    }
+
+    .innerRight {
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .innerRight form {
+        width: 100%;
+    }
+
+    .innerRight form input {
+        line-height: 30px;
+    }
+
+    .innerRight form input::placeholder {
+        font-size: 14px;
+    }
+
+    .gallary {
+        /* display: none; */
+        max-width: 100%;
+        text-align: center;
+        margin: auto;
+        grid-template-columns: none;
+    }
+
+    .gallaryOverlay {
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+    .gallaryModal {
+        width: 80%;
+        position: fixed;
+        height: 300px;
+        background: white;
+        left: 50%;
+        top: 50%;
+        transition: 0.5s;
+        transform: translate(-50%, -50%) scale(0);
+
+    }
+
+    .gallaryModalShow {
+        display: block;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    .gallaryModal img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .whyJvtSection {
+        width: 100%;
+        margin: 70px 0px;
+    }
+
+    .whyJvt {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .whyJvtLogo img {
+        text-align: center;
+        width: 180px;
+    }
+
+    .whyJvt p {
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .whyJvtContent {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .floorPlanImg {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .AreaContent {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tabs li {
+        padding: 2px 12px;
+    }
+
+    .imagesType {
+        width: 150px;
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0px 0px 10px 1px #ccc;
+    }
+
+    .locationInner {
+        max-width: 100%;
+        margin: 30px auto;
+    }
+
+    .locationInner h1 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .locationInner img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .WalkThrough {
+        width: 100%;
+    }
+
+    .WalkThroughInner {
+        max-width: 100%;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .WalkThroughInner h1 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .WalkThroughInner iframe {
+        width: 350px;
+        height: 250px;
+    }
+
+    .enquireTodayInner {
+        width: 100%;
+        display: block;
+    }
+
+    .poster {
+        display: none;
+    }
+
+    .enquireTodaySection {
+        width: 100%;
+        text-align: center;
+    }
+
+    .enquireTodaySection h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    form {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    form input {
+        width: 95%;
+
+    }
+
+    form input::placeholder {
+        font-size: 13px;
+    }
+
+    form textarea {
+        width: 95%;
+    }
+
+    form button {
+        width: 95%;
+        margin-top: 20px;
+    }
+
+    .footerContentP1 {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .leftContent {
+        width: 100%;
+        text-align: center;
+    }
+
+    .leftContent img {
+        width: 200px;
+    }
+
+    .leftContent h5 {
+        font-size: 20px;
+    }
+
+    .leftContent i {
+        font-size: 15px;
+    }
+
+    .leftContent span {
+        font-size: 18px;
+    }
+
+    .footerInner {
+        padding: 50px 0px;
+    }
+
+    .rightContent {
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .rightContent img {
+        width: 200px;
+    }
+
+    .rightContent p {
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .footerContentP2 h5 {
+        font-size: 15px;
+    }
+
+    .footerInner {
+        padding: 20px 0px;
+    }
+
+    .fixedIcon {
+        top: 68%;
+        right: 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 900px) {
+    header img {
+        width: 100px;
+    }
+
+    nav {
+        position: fixed;
+        width: 80%;
+        background: white;
+        height: 350px;
+        top: 37px;
+        left: -100%;
+        transition: .7s;
+        box-shadow: 0px 0px 10px 1px #ccc;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: normal;
+        margin-left: 10px;
+    }
+
+    nav ul button {
+        width: 25%;
+        font-size: 13px;
+    }
+
+    nav ul span {
+        display: none;
+    }
+
+    .hideIcon i {
+        display: block;
+    }
+
+    .showMenu {
+        left: 0% !important;
+    }
+
+    .banner1 {
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    .bannerSection {
+        margin-top: 37px;
+    }
+
+    .banner2 {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .banner2Inner {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .banner2Inner h1 {
+        font-size: 30px;
+    }
+
+    .banner2Inner p {
+        text-align: justify;
+    }
+
+    .community {
+        font-size: 14px;
+        line-height: 30px;
+        border: none;
+
+    }
+
+    .innerRight {
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .innerRight form {
+        width: 100%;
+    }
+
+    .innerRight form input {
+        line-height: 30px;
+    }
+
+    .innerRight form input::placeholder {
+        font-size: 14px;
+    }
+
+    .gallary {
+        max-width: 100%;
+        text-align: center;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .gallaryOverlay {
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+    .gallaryModal {
+        width: 80%;
+        position: fixed;
+        height: 300px;
+        background: white;
+        left: 50%;
+        top: 50%;
+        transition: 0.5s;
+        transform: translate(-50%, -50%) scale(0);
+
+    }
+
+    .gallaryModalShow {
+        display: block;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    .gallaryModal img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .whyJvtSection {
+        width: 100%;
+        margin: 70px 0px;
+    }
+
+    .whyJvt {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .whyJvtLogo img {
+        text-align: center;
+        width: 180px;
+    }
+
+    .whyJvt p {
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .whyJvtContent {
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .floorPlanImg {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .AreaContent {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tabs li {
+        padding: 2px 12px;
+    }
+
+    .imagesType {
+        width: 150px;
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0px 0px 10px 1px #ccc;
+    }
+
+    .locationInner {
+        max-width: 100%;
+        margin: 30px auto;
+    }
+
+    .locationInner h1 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .locationInner img {
+        width: 600px;
+        height: 400px;
+    }
+
+    .WalkThrough {
+        width: 100%;
+    }
+
+    .WalkThroughInner {
+        max-width: 100%;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .WalkThroughInner h1 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .WalkThroughInner iframe {
+        width: 600px;
+        height: 400px;
+    }
+
+    .enquireTodayInner {
+        width: 100%;
+        display: block;
+    }
+
+    .poster {
+        display: none;
+    }
+
+    .enquireTodaySection {
+        width: 100%;
+        text-align: center;
+    }
+
+    .enquireTodaySection h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    form {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    form input {
+        width: 95%;
+
+    }
+
+    form input::placeholder {
+        font-size: 13px;
+    }
+
+    form textarea {
+        width: 95%;
+    }
+
+    form button {
+        width: 95%;
+        margin-top: 20px;
+        /* margin-left: 14px; */
+    }
+
+    .footerContentP1 {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    /* .enquireTodaySection form textarea{
+        margin-left: 0px !important;
+    }
+    .enquireTodaySection form button{
+        margin-left: 0px;
+    } */
+
+    .leftContent {
+        width: 100%;
+        text-align: center;
+    }
+
+    .leftContent img {
+        width: 200px;
+    }
+
+    .leftContent h5 {
+        font-size: 20px;
+    }
+
+    .leftContent i {
+        font-size: 15px;
+    }
+
+    .leftContent span {
+        font-size: 18px;
+    }
+
+    .footerInner {
+        padding: 50px 0px;
+    }
+
+    .rightContent {
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .rightContent img {
+        width: 200px;
+    }
+
+    .rightContent p {
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .footerContentP2 h5 {
+        font-size: 15px;
+    }
+
+    .footerInner {
+        padding: 20px 0px;
+    }
+
+    .fixedIcon {
+        top: 68%;
+        right: 0px;
+    }
+}
